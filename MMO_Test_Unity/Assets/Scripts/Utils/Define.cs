@@ -57,7 +57,6 @@ public enum Layer
         PointerDown,
         PointerUp,
         Click,
-
     }
     public enum CameraMode
     {

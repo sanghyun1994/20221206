@@ -13,6 +13,7 @@ public class InputManager
     
     bool _pressed = false;
     float _pressedTime = 0;
+
     public void OnUpdate()
     {
         if (EventSystem.current.IsPointerOverGameObject())
@@ -23,9 +24,9 @@ public class InputManager
 
         if(MouseAction != null)
         {
-            if(Input.GetMouseButton(0))
+            if (Input.GetMouseButton(0))
             {
-                if(!_pressed)
+                if (!_pressed)
                 {
                     MouseAction.Invoke(Define.MouseEvent.PointerDown);
                     _pressedTime = Time.time;

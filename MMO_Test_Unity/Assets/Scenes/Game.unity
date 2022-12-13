@@ -1491,18 +1491,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4502391560429181913, guid: 572e315f6be59514891e2049b6dd2541, type: 3}
-      propertyPath: _player
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4502391560429181913, guid: 572e315f6be59514891e2049b6dd2541, type: 3}
-      propertyPath: _delta.y
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4502391560429181913, guid: 572e315f6be59514891e2049b6dd2541, type: 3}
-      propertyPath: _delta.z
-      value: -6.5
-      objectReference: {fileID: 0}
     - target: {fileID: 4502391560429181917, guid: 572e315f6be59514891e2049b6dd2541, type: 3}
       propertyPath: m_Name
       value: Camera
