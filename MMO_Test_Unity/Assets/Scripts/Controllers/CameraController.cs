@@ -36,9 +36,9 @@ public class CameraController : MonoBehaviour
             else
             {
                 if (Input.GetAxis("Mouse ScrollWheel") < 0)
-                    _delta += _delta.normalized * 1.5f;
+                    _delta += _delta.normalized * 1.05f;
                 else if (Input.GetAxis("Mouse ScrollWheel") > 0)
-                    _delta -= _delta.normalized * 1.5f;
+                    _delta -= _delta.normalized * 1.05f;
 
                 if (_delta.magnitude < 4)
                     _delta = _delta.normalized * 4;
